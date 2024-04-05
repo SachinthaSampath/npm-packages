@@ -134,7 +134,7 @@ Use `npm init`. The `package.json` file should have the following
 ###  ``` npm link ``` to link package
 
 - Use `npm link` inside the package folder to create a link for the package in  npm and when trying to install it from another location, it's going to install from this location.
-- Use `npm link {package-name}` in the test folder to link the package and use it.
+- Use `npm link {package-name}` in another local repository to link the package and use it.
 
 ### ``` npm publish ``` to publish the package
 - Should have an npm account and use `npm login` to login via command line.
@@ -163,7 +163,7 @@ import { sayHello } from "say-hello";
 console.log(sayHello());
 ```
 ### Note :
-The TypeScript example may not work like expected in the `test` directory. But after publishing as an `npm` library, can use in a separate project as follows within a component file.
+The TypeScript example may not work like expected in the `test` directory. But after publishing as an `npm` library, can use in a separate repository as follows within a component file.
 
 ```TypeScript
 import { Employee, Person, sayHello } from "@sachinthasampath/types";
