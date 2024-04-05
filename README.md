@@ -7,15 +7,16 @@ This repository guides on how to create an NPM package and publish it to be acce
 │   └───index.js
 │   └───package.json
 ├───test-folder
-|   └───script.js
-└───
+    └───script.js
+
 ```
 - Use ```npm init``` inside the `package` directory to initialize the package
+- Use ``` npm init --scope={scope-name}``` to make it scoped package by default. 
 - The `package.json` file will look like follows.
   
 ```json
 {
-  "name": "@sachinthasampath/sn-types",
+  "name": "@sachinthasampath/functions",
   "version": "1.0.1",
   "description": "This is a package to store ts types",
   "main": "index.js",
@@ -37,9 +38,7 @@ This repository guides on how to create an NPM package and publish it to be acce
   "homepage": "https://github.com/SachinthaSampath/npm-packages#readme"
 }
 ```
-  
-### Create scoped package 
-- Use ``` npm init --scope={scope-name}``` to make it scoped package by default. 
+   
 
 ##  ``` npm link ``` to link package
 
@@ -51,4 +50,5 @@ This repository guides on how to create an NPM package and publish it to be acce
 - Use `npm publish` inside the package directory to publish the package to npm.
 - Use scoped package names to create unique package names `@{username}/{packagename}`.
 - Use `npm publish --access=public` to make scoped packages public. By default it will be private.
+
 

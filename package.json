@@ -1,6 +1,6 @@
 {
-  "name": "@sachinthasampath/sn-types",
-  "version": "1.0.1",
+  "name": "@sachinthasampath/functions",
+  "version": "1.0.2",
   "description": "This is a package to store ts types",
   "main": "index.js",
   "scripts": {
