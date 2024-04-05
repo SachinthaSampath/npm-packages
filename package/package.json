@@ -1,0 +1,30 @@
+{
+  "name": "@sachinthasampath/types",
+  "version": "1.0.0",
+  "description": "This is a package to store ts types",
+  "main": "dist/index",
+  "typings": "dist/index",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SachinthaSampath/npm-packages.git"
+  },
+  "keywords": [
+    "TS"
+  ],
+  "author": "Sachintha Sampath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SachinthaSampath/npm-packages/issues"
+  },
+  "homepage": "https://github.com/SachinthaSampath/npm-packages#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
+  }
+}

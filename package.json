@@ -1,22 +1,24 @@
 {
-  "name": "@sachinthasampath/functions",
-  "version": "1.0.3",
-  "description": "This is a package to store ts types",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SachinthaSampath/npm-packages.git"
-  },
-  "keywords": [
-    "TS"
-  ],
-  "author": "SachinthaSampath",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SachinthaSampath/npm-packages/issues"
-  },
-  "homepage": "https://github.com/SachinthaSampath/npm-packages#readme"
+    "name": "@sachinthasampath/types",
+    "version": "1.0.0",
+    "description": "This is a package to store ts types",
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SachinthaSampath/npm-packages.git"
+    },
+    "keywords": [
+        "TS"
+    ],
+    "author": "Sachintha Sampath",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/SachinthaSampath/npm-packages/issues"
+    },
+    "homepage": "https://github.com/SachinthaSampath/npm-packages#readme",
+    "dependencies": {
+        "ts-node": "^10.9.2"
+    }
 }
