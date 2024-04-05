@@ -1,5 +1,13 @@
 function isWds(string) {
     return string === 'wds';
-} 
+}
 
-module.exports = isWds; 
+function greet(name) {
+    return `Hello, ${name}!`;
+}
+
+//export both functions
+module.exports = {
+    isWds,
+    greet
+};
